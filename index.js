@@ -12,7 +12,7 @@ let target2 = 8;
 function binarySearch(array, val) {
   let min = 0;
   let max = array.length - 1;
-  let mid = 0;
+
 
   while (min <= max) {
     let mid = Math.floor((min + max) / 2);
